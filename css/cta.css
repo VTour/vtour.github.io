@@ -1,0 +1,62 @@
+header a.cta{align-self: flex-end;
+font-size: 1.3em;
+width: 340px;
+line-height: 200%;
+margin-right: 60px;
+}
+.cta {
+    width: 736px;
+    /* height: 104px; */
+    border: 0;
+    color: white;
+    font-size: 3em;
+    line-height: 104px;
+    /* height: 74px; */
+    padding: 18px;
+    color: white !important;
+    text-align: center;
+}
+.cta:hover{
+    text-decoration: none;
+}
+.cta-mobile {
+    display: none;
+}
+@media (min-width:800px) and (max-width:1200px) {
+
+
+
+    .cta {
+        width: 500px;
+        height: 74px;
+        font-size: 2em;
+    }
+
+}
+@media (max-width:800px) {
+
+
+    .cta {
+        display: none;
+
+    }
+
+    .cta-mobile {
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        border: 0;
+        width: 50px;
+        height: 150px;
+        position: absolute;
+        right: 0;
+        /*        position: fixed;*/
+        top: 50px;
+    }
+
+    .cta-mobile:hover{
+        color:white;text-decoration: none;
+    }
+}

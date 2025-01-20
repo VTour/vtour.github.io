@@ -1,0 +1,55 @@
+/*Bleu ciel*/
+
+.bg-blue-1 {
+    background-color: #82b1d3;
+}
+
+.bg-blue-1-light {
+    background-color: #8dc0e6;
+}
+
+
+/*Bleu foncé*/
+
+.bg-blue-2 {
+    background-color: #004263;
+}
+
+.bg-blue-2-light {
+    background-color: #016698;
+}
+
+.bg-greygreen {
+    background-color: #498175;
+}
+
+.bg-greygreen-light {
+    background-color: #98ada5;
+}
+
+.bg-grey2 {
+    background-color: #b4b4b4;
+}
+
+
+/*ARrière plan gris*/
+
+.bg-grey {
+    background-color: #717679;
+}
+
+.bg-grey-light {
+    background-color: #858b90;
+}
+
+.bg-green {
+    background-color: #0c800c;
+}
+
+.text-black {
+    color: black;
+}
+
+.text-white {
+    color: white;
+}

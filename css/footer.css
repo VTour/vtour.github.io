@@ -1,0 +1,33 @@
+footer {
+    height: 55px;
+    background-color: #002335;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 25px;
+    padding-left: 25px;
+    width: 100%;
+}
+footer a {
+    opacity: 0.8;
+    font-size: 1.75em;
+}
+footer a:hover {
+    opacity: 1;
+}
+footer a,
+footer a:visited,
+footer a:hover {
+    color: white;
+    text-decoration: none;font-size: 14px;
+}
+.img-rs {
+    height: 20px;
+}
+.twitter {
+    padding-right: 20px;
+}
+
+.linkedin {
+    padding-left: 20px;
+}

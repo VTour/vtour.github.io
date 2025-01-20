@@ -1,0 +1,43 @@
+/******************************************
+Général
+*****************************************/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+
+/******************************************
+Ecriture
+*****************************************/
+
+
+h1 {
+    color: black;
+    font-size: 3em;
+    width: 80%;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+}
+
+
+/******************************************
+Boutons
+*****************************************/
+
+button {
+    outline: 0 !important;
+}
+@media(max-width:800px){
+    body >nav.navbar.navbar-expand-lg{
+        position: fixed;
+        top: 0;
+        width: 100%;z-index: 10;
+    }
+    body{padding-top: 103px;}
+}

@@ -1,0 +1,192 @@
+/*Moins de 1200px*/
+@media (max-width:1200px) {
+    .upper-wrapper-actualites {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #actualites h3 {
+        border-right: 0;
+        border-bottom: 1px solid #fff;
+        font-size: 1.5em;
+        padding-bottom: 15px;
+    }
+/*
+    #content-secteurs {
+        flex-direction: column;
+        width: 100%;
+    }*/
+
+
+
+
+    #wrappers-actualites {
+        flex-direction: column;
+    }
+
+    .wrapper-actualites {
+        display: flex;
+        flex-direction: row-reverse;
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .photo-actualites {
+        padding-top: 0;
+        width: 150px;
+    }
+
+    .upper-wrapper-actualites {
+        padding-left: 30px;
+        padding-right: 30px;
+        align-items: start;
+    }
+
+    #actualites h3 {
+        border: 0;
+        padding-bottom: 0;
+        height: auto;
+    }
+
+    .resume-actualites {
+        padding-left: 0;
+        padding-bottom: 20px;
+        height: auto;
+    }
+
+    #actualites {
+        padding-bottom: 0;
+    }
+}
+
+
+
+
+
+@media (min-width:800px) and (max-width:1200px) {
+
+
+    #catch-phrase {
+        padding-top: 30px;
+    }
+
+ 
+}
+
+@media (min-width:992px) and (max-width:1400px) {
+    .header-secteur {
+        font-size: 2em;
+        /* line-height: 180px; */
+    }
+
+    .section h2 {
+        padding-bottom: 75px;
+        padding-top: 60px;
+        margin: 0;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    /* .text {
+        font-size: 1.2em;
+    } */
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .header-secteur {
+        font-size: 2.5em;
+        line-height: 120px;
+        padding: 0;
+    }
+
+    .section h2 {
+        padding-bottom: 45px;
+        padding-top: 40px;
+    }
+
+    .resume-actualites {
+        padding-left: 0;
+        height: auto;
+    }
+
+}
+
+
+
+@media (max-width:992px) {
+    .text {
+        font-size: 1em;
+    }
+
+
+}
+
+@media (max-width:800px) {
+    h1 {
+        /* font-size: 1.5em; */
+        padding-left: 10px;
+    }
+
+    #catch-phrase {
+        padding-top: 30px;
+        padding-left: 15px;
+    }
+
+}
+
+@media (max-width:768px) {
+    .section h2 {
+        padding-bottom: 15px;
+        padding-top: 10px;
+
+    }
+
+    .header-secteur {
+        line-height: 50px;
+        font-size: 2em;
+    }
+
+    .wrapper-actualites {
+        flex-direction: column-reverse;
+    }
+
+    .lower-wrapper-actualites {
+        padding-bottom: 10px;
+    }
+
+    h3 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .resume-actualites {
+        text-align: justify;
+        text-align-last: center;
+    }
+}
+
+@media (max-width:488px) {
+    h1 {
+        /*color: red;*/
+        font-size: 1.2em;
+        width: 100%;
+    }
+
+    #catch-phrase {
+        padding-top: 5px;
+        padding-left: 5px;
+    }
+
+    .section h2 {
+        padding-bottom: 10px;
+        /*        color:red;*/
+        padding-top: 10px;
+        margin-bottom: 0;
+    }
+    h2{
+        font-size: 1.85em;
+    }
+}

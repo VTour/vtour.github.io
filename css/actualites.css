@@ -1,0 +1,119 @@
+header {
+
+    position: relative;
+    padding-bottom: 10px;
+    background-image: url(../img/solutions/header.png);
+    background-size: cover;
+    min-height: 340px;
+}
+header#header > img {
+    width: 100%;
+}
+.sous_titre {
+    background-color: #ebebeb;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
+#dernieres_actus {
+    display: flex;
+}
+
+.derniere_actu {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;   
+    /* max-height: 500px;*/
+}
+
+#derniere_actu_1 {
+    background-color: #004264;
+}
+
+#derniere_actu_2 {
+    background-color: #82b0d2;
+}
+
+#derniere_actu_3 {
+    background-color: #b4b4b4;
+}
+
+.derniere_actu .photo_actu {
+    border: 20px solid white;
+    position: relative;
+    bottom: 30px;
+    height: 30%;
+    max-width: 100%;
+}
+#toutes_actualites nav{
+      display: flex;
+    justify-content: space-around;
+}
+#toutes_actualites .content{
+    width:150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 150px;
+    background-color: #000;
+}
+#toutes_actualites .content.hidden{
+    width: 0;
+    opacity: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    transition: width ease-in-out 1s, height ease-in-out 1s, opacity ease-in-out 1s,margin-left ease-in-out 1s,margin-right ease-in-out 1s;
+}
+#toutes_actualites .wrapper_content{
+        display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+#toutes_actualites nav{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+@media(max-width:880px) {
+    #dernieres_actus {
+        flex-direction: column;
+    }
+
+    .derniere_actu {
+        flex-direction: row;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .wrapper_text_derniere_actu {
+        padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+    .derniere_actu .photo_actu {
+        height: 150px;
+        bottom: 0;
+        border-width: 10px;
+    }
+}
+@media (max-width:660px){
+        .derniere_actu {
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .derniere_actu h2{
+        padding-top: 20px;
+    }
+    .derniere_actu .text_actu{
+            text-align: justify;
+    text-align-last: center;
+    }
+}

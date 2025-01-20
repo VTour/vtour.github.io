@@ -1,0 +1,345 @@
+/*****************************************
+Home
+*****************************************/
+
+.section h2 {
+    padding-bottom: 50px;
+    padding-top: 50px;text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+
+
+img.building {
+    width: 100%;
+}
+
+#main {
+    position: relative;
+}
+
+#catch-phrase {
+    position: absolute;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 40px;
+}
+
+/*****************************************
+Industries
+*****************************************/
+
+#secteurs {
+    /*    padding-top: 80px;*/
+    background-color: #3e5266;
+    background-image: url(../img/home/bg-secteurs.png);
+    background-size: cover;
+}
+
+#content-secteurs {
+    display: flex;
+    /* width: 92%; */
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+}
+
+.wrapper-secteur {
+    flex: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header-secteur {
+    font-size: 2.5em;
+    text-align: center;
+    line-height: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*.row-secteur {*/
+    .row-secteur{
+        height: 300px;
+    }
+.row-secteur a {
+    display: flex;
+    /*    height: 235px;*/
+    /*    line-height: 235px;*/
+    text-align: center;
+    color: white;
+    /*    opacity: 0.85;*/
+}
+
+.row-secteur a:hover {
+    text-decoration: none;
+    /*    opacity: 1;*/
+}
+
+.left-secteur, .right-secteur {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+
+.img-secteur {
+    width: 100%;
+    /* padding:20px; */
+}
+
+.text-secteur {
+    width: 90%;
+    text-align: justify;
+    text-align-last: center;font-size: 1.05em;
+    /* padding:20px; */
+}
+
+.left-secteur .text-secteur{
+    text-align: left;
+    text-align-last:auto ;
+}
+.right-secteur .text-secteur{
+    text-align: right;
+    text-align-last:auto ;
+}
+
+
+/*****************************************
+Actualités
+*****************************************/
+
+#actualites {
+    background-color: #4e897c;
+    padding-bottom: 80px;
+    background-image: url(../img/home/bg-actualites.png);
+    background-size: cover;
+}
+
+#actualites a, #actualites a:visited, #actualites a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+#actualites h3 {
+    border-right: 1px solid #fff;
+    padding-right: 10px;
+    font-size: 2em;
+    height: 100%;
+}
+
+#wrappers-actualites {
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapper-actualites {
+    width: 30%;
+}
+
+.upper-wrapper-actualites {
+    display: flex;
+    height: 200px;
+    align-items: center;
+}
+
+.resume-actualites {
+    padding-left: 20px;
+    /*    font-size: 1.6em;*/
+    /*    height: 170px;*/
+}
+
+.resume-actualites p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /*    white-space: nowrap;*/
+}
+
+.photo-actualites {
+    /*
+    width: 100%;
+    padding-top: 55px;
+*/
+    max-width: 400px;
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    width: 100%;
+    margin-right: auto;
+}
+
+/*****************************************
+Slider
+*****************************************/
+
+/* #slider {
+    background-color: #7a9288;
+    padding-bottom: 30px;
+    background-image: url(../img/home/bg-references.png);
+    background-size: cover;
+}
+
+#slider>div.wrapper>div {
+    background-color: #7a9288;
+    background-image: url(../img/home/bg-references.png);
+    background-size: cover;
+}
+
+#slider a, #slider a:visited, #slider a:hover {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+#slider .wrapper {
+
+    margin-left: auto;
+    margin-right: auto;
+} */
+#solutions{
+    background:#dadada;
+}
+#slider_references .splide__slide{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;    padding-bottom: 40px;
+}
+#slider_references h3{
+    padding-top: 20px;
+    color: black;
+    
+}
+#slider_references a:hover{
+    text-decoration: none;
+}
+#slider_references{
+    background-color: #82b1d3;
+    padding: 30px;
+}
+#slider_references .splide__slide a{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#slider_references .splide__slide img{
+    width: 80%;
+}
+#slider_references .splide__slide__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;text-align: center;
+}
+/* .img-carousel {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+[data-next-button], [data-prev-button] {
+    cursor: pointer;
+} */
+#wrapper_solutions_2{
+    background-color: #004264;
+    display: flex;
+    justify-content: center;    flex-direction: column;
+    align-items: center;
+}
+
+#wrapper_solutions_2 h2{
+    padding-top: 50px;
+}
+#solutions_2{
+    max-width: 1200px;display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#solutions_2 .solution{
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    padding: 30px;
+    margin: 30px;
+    background:#82b1d3;
+}
+#solutions_2 a.solution:hover{
+    text-decoration: none;
+}
+#solutions_2 .solution h3{
+    padding-top: 20px;
+}
+#solutions_2 .solution img{
+    width: 200px;
+}
+#solutions_2 .solution p{
+    text-align: justify;
+    text-align-last: center;
+}
+@media(max-width:1200px){
+    .row-secteur{
+        height: auto;
+    }
+    .row-secteur:nth-child(2n) a{
+        flex-direction: column;
+    }
+    .row-secteur:nth-child(2n+1) a{
+        flex-direction: column-reverse;
+    }
+    .left-secteur .text-secteur,.right-secteur .text-secteur{
+        text-align: justify;
+        text-align-last:center ;
+    }
+
+}
+
+@media(max-width:992px){
+    #content-secteurs{
+        flex-direction: column;
+    }
+    .wrapper-secteur{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #secteurs{
+        padding-bottom: 0;
+    }
+    .img-secteur{
+        width: 300px;
+    }
+    .row-secteur a{
+flex-direction: row !important;
+    }
+    .left-secteur, .right-secteur{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+h1{
+    font-size: 2em;
+}
+
+
+}
+
+
+@media(max-width:600px){
+    .row-secteur:nth-child(2n) a{
+        flex-direction: column !important;
+    }
+    .row-secteur:nth-child(2n+1) a{
+        flex-direction: column-reverse !important;
+    }
+    .row-secteur{
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+h1{
+    font-size: 1.4em;font-weight: 900;
+}
+
+
+}

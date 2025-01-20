@@ -1,0 +1,62 @@
+.logo {
+    height: 92px;
+    width: 292px;
+}
+
+nav.navbar {
+    padding: 0;
+    font-size: 35px;
+    background: white;
+}
+
+.navbar-brand {
+    height: 100%;
+    width: auto;
+    padding-left: 5px;
+}
+
+.navbar-brand img {
+    height: 100%;
+    width: auto;
+    display: block;
+}
+
+nav .navbar-nav li.nav-item a.nav-link {
+    color: black;
+}
+#navbarSupportedContent > .navbar-nav > .nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+header {
+    background-image: url(../img/solutions/header_logiciel.png);
+    padding-top: 80px;
+    padding-bottom: 150px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (min-width:1176px) and (max-width:1372px) {
+    nav.navbar {
+        font-size: 28px;
+        height: 85px;
+    }
+}
+@media (min-width:992px) and (max-width:1176px) {
+    nav.navbar {
+        font-size: 21px;
+        height: 60px;
+    }
+}
+@media (max-width:992px) {
+
+
+    nav.navbar {
+        font-size: 21px;
+
+    }
+nav.navbar ul li a.nav-link{
+    padding-left: 20px;
+}
+}
